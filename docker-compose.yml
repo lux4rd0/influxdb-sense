@@ -1,0 +1,8 @@
+services:
+  influxdb-sense:
+    container_name: influxdb-sense
+    image: docker01.tylephony.com:5000/lux4rd0/influxdb-sense:latest
+    network_mode: host
+    restart: always
+    user: 1000:1000
+version: '3.3'
